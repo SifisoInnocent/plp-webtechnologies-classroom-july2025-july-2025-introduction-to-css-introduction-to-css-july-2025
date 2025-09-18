@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Section & Card */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px; /* Space inside the border */
+  margin-bottom: 20px; /* Space outside the border */
+  border: 2px solid #ccc; /* Border around the box */
+  border-radius: 8px;
+}
+
+/* Headings & Paragraphs */
+h1, h2 {
+  margin: 0 0 10px 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
